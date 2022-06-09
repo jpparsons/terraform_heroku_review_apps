@@ -16,7 +16,6 @@ heroku_app_buildpacks = [
 pipeline_id = "ID"
 
 heroku_postgresql = "heroku-postgresql:hobby-dev"
-#heroku_postgresql = "heroku-postgresql:standard-0"
 
 rediscloud = "rediscloud:30"
 
@@ -25,7 +24,8 @@ elasticsearch = "bonsai:sandbox-6"
 heroku_scheduler = "scheduler:standard"
 
 heroku_team = "productplan"
-# personal is default
+
+# Heroku personal space is default
 personal = true
 
 web_size = "hobby"
