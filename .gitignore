@@ -1,0 +1,4 @@
+dev.tfvars
+staging.tfvars
+prod.tfvars
+.terraform
