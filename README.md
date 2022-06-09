@@ -13,6 +13,7 @@ heroku_app_buildpacks = [
   "https://github.com/niteoweb/heroku-buildpack-shell"
 ]
 
+# set your Heroku pipeline ID here
 pipeline_id = "ID"
 
 heroku_postgresql = "heroku-postgresql:hobby-dev"
