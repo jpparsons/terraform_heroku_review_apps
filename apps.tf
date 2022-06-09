@@ -58,7 +58,7 @@ resource "heroku_formation" "review_app_worker" {
   quantity = 1
   size     = var.worker_size
 
-  depends_on = [heroku_app_release.reviewapp1-release]
+  depends_on = [heroku_app_release.reviewapp-release]
 }
 
 
